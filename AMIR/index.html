@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROYECTO#2</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600' rel='stylesheet' type='text/css'>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
+    <script src="js/programa.js"></script>
+    <script src="js/jquery.js"></script>
+    <link rel="stylesheet" href="css/stile.css">
+</head>
+<body>
+   
+    <div id="titulo" class="testbox">
+        <h1>AMIR NISPERUZA</h1>
+        <h1>Clasificador de Numeros</h1>
+        <img src="https://cdn.dribbble.com/users/470545/screenshots/3471475/calculater.gif" alt="">
+      
+        <form action="/">
+        <label id="icon" for="name"><h4>numeros</h4></label>
+        <input type="text" name="name" id="numero4D" placeholder="Ingrese el nuemro" required/>
+        
+        <svg style="visibility: hidden; position: absolute;" width="0" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1">
+            <defs>
+                <filter id="goo"><feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />    
+                    <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+                    <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
+                </filter>
+            </defs>
+        </svg>
+        <label id="icon" for="name"><h4>par</h4></label>
+        <input type="text" name="name" id="pares" />
+        <label id="icon" for="name"><h4>impar</h4></label>
+        <input type="text" name="name" id="impares" />
+        <label id="icon" for="name"><h4>cero</h4></label>
+        <input type="text" name="name" id="ceros" />
+        
+        <div class="wrapper">
+            <a class="button" class="boton"href="#">RESULTADO</a>
+        </div>
+
+        </form>
+      </div>
+</body>
+</html>
